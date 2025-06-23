@@ -39,6 +39,6 @@ echo \"vm.swappiness=10\" | sudo tee -a /etc/sysctl.conf
 
 echo "✨ [10/10] GNOME görsel ayarları uygulanıyor..."
 gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
-gsettings set org.gnome.desktop.interface enable-animations false
+gsettings set org.gnome.desktop.interface enable-animations true
 
 echo "✅ Kurulum tamamlandı. Şimdi sistemi yeniden başlatmanız önerilir."
